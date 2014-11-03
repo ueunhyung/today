@@ -10,16 +10,19 @@
   <style type="text/css">
   h1{
 	  text-align:center;
+	  text-emphasis:accent;
 	  background-color:pink;
 	  color:white;
-	  padding:30px;
+	  padding:40px;
 }
 .menu{
 	float:right;
 	text-align:right;
 	
 }
-
+.menu ul{
+	list-style-type:none;
+}
 a:link, a:visited{
 	color:inherit;
 	text-decoration:none;
@@ -27,6 +30,13 @@ a:link, a:visited{
 a:hovor, a:active{
 	text-decoration:underline;
 }
+.content{
+	margin:10px;
+	padding:5px;
+	text-align:center;
+	float:left;
+	
+	}
 	
   </style>
 </head>
@@ -38,17 +48,17 @@ a:hovor, a:active{
       
     </div>
 
-<div class="menu">
+<nav class="menu">
 	<P>*EVERYDAY COOKING*</P>
-    <li>
-    <ul><a href="#">오븐요리</a></ul>
-    <ul><a href="#">밥상요리</a></ul>
-    <ul><a href="#">한그릇요리</a></ul>
-    <ul><a href="#">홈베이킹</a></ul>
-    <ul><a href="#">안주.야식.간식</a></ul>
-    </li>
-</div>
-<div>
+    <ul>
+    <li><a href="#">오븐요리</a></li>
+    <li><a href="#">밥상요리</a></li>
+    <li><a href="#">한그릇요리</a></li>
+    <li><a href="#">홈베이킹</a></li>
+    <li><a href="#">안주.야식.간식</a></li>
+    </ul>
+</nav>
+<div class="content">
 	<p>손쉽게 구할 수 있는 재료로 손쉽게 먹을 수 없는 special한 음식을 만들어 보자!</p>
 	<P>여대생 둘과 함께하는 먹방의 세계로 GO!!!!!!!!!!!</P>
 </div>
